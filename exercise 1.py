@@ -10,13 +10,13 @@ plt.imshow(A)
 plt.close()
 
 # exercise c
-a = cv2.imread("external files/lab1a.png")
+a = cv2.imread("external files/exercise 1/lab1a.png")
 b = cv2.cvtColor(a, cv2.COLOR_BGR2RGB)
 plt.imshow(b)
 plt.close()
 
 # exercise d
-a = cv2.imread("external files/lab1a.png")
+a = cv2.imread("external files/exercise 1/lab1a.png")
 b = cv2.cvtColor(a, cv2.COLOR_BGR2RGB)
 plt.imshow(b, cmap='gray')
 plt.close()
